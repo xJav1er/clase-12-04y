@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- nav para menús -->
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#progra">Programación</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- header para encabezado hero -->
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>Programación FrontEnd</h1>
+            <h2>Web de programación</h2>
+        </div>
+    </header>
+    <!-- sección para info -->
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h2 class="titulo">Información Relevante</h2>
+            <p class="parrafo">Un lenguaje de programación es un lenguaje formal (o artificial, es decir, un lenguaje con reglas gramaticales bien definidas) que proporciona a una persona, en este caso el programador, la capacidad y habilidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático, para que de esa manera se puedan obtener diversas clases de datos o ejecutar determinadas tareas. A todo este conjunto de órdenes escritas mediante un lenguaje de programación se le denomina programa informático</p>
+        </div>
+    </section>
+    <!-- sección para cartas -->
+    <section class="contenedor" id="progra">
+        <h2 class="titulo">Programación Web</h2>
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-code-square"></i>
+                </div>
+                <h3 class="titulo-card">HTML</h3>
+                <p>Aprende sobre html</p>
+                <a href="" class="boton">Leer más</a>
+            </article>   
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-pencil-square"></i>
+                </div>
+                <h3 class="titulo-card">CSS</h3>
+                <p>Aprende sobre css</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-filetype-js"></i>
+                </div>
+                <h3 class="titulo-card">JS</h3>
+                <p>Aprende sobre Javascript</p>
+                <a href="" class="boton">Leer más</a>
+            </article>         
+        </div>
+    </section>
+    <!-- galería -->
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2 class="titulo">Galería de Imágene</h2>
+            <div class="contenedor-galeria">
+                <img src="img/img1.avif" alt="">
+                <img src="img/img2.jpg" alt="">
+                <img src="img/img3.jpg" alt="">
+                <img src="img/img4.webp" alt="">
+                <img src="img/img5.jpg" alt="">
+                <img src="img/img6.jpg" alt="">
+                <img src="img/img7.jpg" alt="">
+                <img src="img/img8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- formulario de contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Formulario de Contacto</h2>
+            <form class="formulario">
+                <input type="text" id="nombre" name="nombre" class="input input-ancho" placeholder="Ingresa nombre">
+                <input type="email" id="email" name="email" class="input input-ancho" placeholder="Ingresa email">
+                <textarea name="msj" id="msj" class="input textarea-ancho" placeholder="Ingresa mensaje" cols="30" rows="10"></textarea>
+                <input type="reset" value="Limpiar" class="boton input-ancho">
+                <input type="submit" value="Enviar" class="boton input-ancho">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
